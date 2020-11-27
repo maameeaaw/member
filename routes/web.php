@@ -25,6 +25,7 @@ Route::get('/findcode','UsersController@findcode');
 Route::get('/findCustomer','UsersController@getCustomer');
 Route::get('/search','SearchController@search')->name('user.search');
 Route::get('/action','SearchController@action')->name('user.action');
+// Route::get('/action','SearchController@action')->name('user.action');
 // Route::get('/user/create','TestController@provfunct');
 // Route::get('/findDistrictName','TestController@findDistrictName');
 // Route::get('/findcode','TestController@findcode');
